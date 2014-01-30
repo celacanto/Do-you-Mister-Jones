@@ -36,7 +36,7 @@ Fiz algumas alterações, como:
 * Remoção de trechos entre os parênteses (já que isso podia acarretar no comentário gerado abrir um parêntese e não fecha-lo, algo que como um membro do [r/oddlysatisfying](http://www.reddit.com/r/oddlysatisfying) nunca poderia permitir).
 * Os comentários para terminarem devem ter um ponto final ou ser o fim de um comentário original (algumas pessoas não colocam ponto no fim, hor-ror).
 * Correção para quando as pessoas esquecem de dar espaço depois do ponto (caos)
-* Necessidade de começar o texto pelo começo de um comentário.
+* Necessidade de começar o texto pelo início de um comentário.
  
 Tabelas de comentários
 ---------------------------------------------------------
