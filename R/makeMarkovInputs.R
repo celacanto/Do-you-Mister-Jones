@@ -47,13 +47,13 @@ markovCommentInput <- function(commentTable, nWordsByState = 2, removeNewLine = 
   # There is a problem in balacing parenthesis, quotes, brackets, etc in the this type of program
   # The solution I have seen is:
   #  * remove the parentheses
-  #  * consider everything inside the parenthesis one word (you will probably end with the tree states from the same comment)
+  #  * consider everything inside the parenthesis one word
   if(removeOpenCloseEstructures){
     comments <- gsub("\\(.*?\\)" , "", comments)
     comments <- gsub("\".*?\"" , "" , comments)
   }
   
-  # Correct the comment that don't a space after a punctuation
+  # Correct the comment that don't have a space after a punctuation
   regexBadFormat <- "([\\.\\,\\!\\:\\?]+)([^[:blank:][:punct:][:space:]])"
   comments <- gsub(pattern = regexBadFormat, replacement = "\\1 \\2", comments)
     
