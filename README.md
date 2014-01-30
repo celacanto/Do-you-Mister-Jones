@@ -41,7 +41,7 @@ Fiz algumas alterações, como:
 * Correção para quando as pessoas esquecem de dar espaço depois do ponto (caos)
 * Necessidade de começar o texto pelo início de um comentário.
  
-Tabelas de comentários
+Tabelas dos comentários
 ---------------------------------------------------------
  
 Como a parte mais demorada disso é obter as tabelas de comentários, deixo [aqui uma pasta](https://github.com/celacanto/Do-you-Mister-Jones/tree/master/commentTables) com os comentários das matérias mais acessadas em diferentes semanas.
@@ -49,7 +49,7 @@ Como a parte mais demorada disso é obter as tabelas de comentários, deixo [aqu
 Exemplo de como usar o código
 --------------------------------------------------------
 
-Esse exemplo irá gerar um comentário aleatório a partir de todos os 38824 comentários. A leitura e o cálculo das variáveis da cadeia de markov pode demorar um tempo, mas depois disso se pode gerar várias frases rapidamente (relativamente, isso é *R* e tal).
+Esse exemplo irá gerar um comentário aleatório a partir de todos os 38824 comentários presentes na tabela. A leitura e o cálculo das variáveis da cadeia de markov pode demorar um tempo, mas depois disso se pode gerar várias frases rapidamente (relativamente, isso é *R* e tal).
 
     source("makeMarkovInputs.R")
     source("createCommentUol.R")
