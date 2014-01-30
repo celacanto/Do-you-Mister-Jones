@@ -24,8 +24,8 @@ Sobre os códigos
 
 O código para obter os comentários é bem direto:
 
-* A partir do link da matéria se obtém o ID dos comentários
-* Acessa o link aonde os comentários são armazenados em formato json. 
+* A partir da página da matéria se obtém o ID dos comentários
+* Com o ID é possível acessar a página aonde os comentários são armazenados no formato json. 
 * Coloca os dados do comentário em uma matrix
 
 Os códigos que geram um novo comentário tiveram como ponto de partida [a lógica descrita aqui](http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/).
