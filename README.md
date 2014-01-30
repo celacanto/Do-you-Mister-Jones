@@ -33,7 +33,7 @@ Os códigos que geram um novo comentário tiveram como ponto de partida [a lógi
 Fiz algumas alterações, como: 
 * Possibilidade de escolher o número de palavras de cada estado da cadeia de markov.
 * Possibilidade de colocar todas as palavras em caixa baixa, o que aumenta a ocorrência de alguns estados.
-* Remoção de trechos entre os parênteses (já que isso podia acarretar do comentário gerado abrir um parêntese e não fecha-lo, algo que como um membro do [r/oddlysatisfying](http://www.reddit.com/r/oddlysatisfying) nunca poderia permitir).
+* Remoção de trechos entre os parênteses (já que isso podia acarretar no comentário gerado abrir um parêntese e não fecha-lo, algo que como um membro do [r/oddlysatisfying](http://www.reddit.com/r/oddlysatisfying) nunca poderia permitir).
 * Os comentários para terminarem devem ter um ponto final ou ser o fim de um comentário original (algumas pessoas não colocam ponto no fim, hor-ror).
 * Correção para quando as pessoas esquecem de dar espaço depois do ponto (caos)
 * Necessidade de começar o texto pelo começo de um comentário.
