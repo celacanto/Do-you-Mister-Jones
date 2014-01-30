@@ -46,7 +46,7 @@ Como a parte mais demorada disso é obter as tabelas de comentários [aqui tem u
 Exemplo de como usar o código
 --------------------------------------------------------
 
-Esse exemplo irá gerar um comentário aleatório a partir de todos os 38824 comentários. A leitura e o cálcula das variáveis da cadeia de markov pode demorar um tempo, mas depois disso se pode gerar várias frases rápidas (relativamente, isso é *R*).
+Esse exemplo irá gerar um comentário aleatório a partir de todos os 38824 comentários. A leitura e o cálculo das variáveis da cadeia de markov pode demorar um tempo, mas depois disso se pode gerar várias frases rapidamente (relativamente, isso é *R* e tal).
 
     source("makeMarkovInputs.R")
     source("createCommentUol.R")
