@@ -4,18 +4,21 @@ Do-you-Mister-Jones, um gerador de comentários do UOL
 Introdução
 --------------------------------------------------------
 
-Aqui se encontram códigos para gerar novos comentários do UOL. Eles tem como base 38824 comentários anteriormente feitos no site. 
+Aqui se encontram códigos para gerar novos comentários do UOL. Eles tem como base 38824 comentários feitos no site. 
 
-Os comentários gerados irão ter escasso sentido, uma vez que a presença de uma palavra é determinada somente pelas duas anteriores. Isto tenderá a produzir um desconexo encadeamento lógico, o que deve aproxima-los dos originais.
+Os comentários gerados podem não fazer muito sentido, uma vez que a presença de uma palavra é determinada somente pelas duas anteriores. Isto tenderá a produzir um desconexo encadeamento lógico, o que deve aproxima-los dos originais.
 
 Exemplo de frases geradas
 ---------------------------------------------------------
 
 > viva o amor, o respeito, cumpre sua pena numa prisão. .
 
+
 > a sociedade que paga para manipular interesses próprios
 
+
 > vergonha!!!!!!!! bandidos defendendo bandidos e criminosos na cadeia.
+
 
 > tenho vergonha destas manobras... se fosse assim não tem vergonha
 
@@ -24,9 +27,9 @@ Sobre os códigos
 
 O código para obter os comentários é bem direto:
 
-* A partir da página da matéria se obtém o ID dos comentários
+* A partir da página da matéria se obtém o ID da página dos comentários.
 * Com o ID é possível acessar a página aonde os comentários são armazenados no formato json. 
-* Coloca os dados do comentário em uma matrix
+* Coloca os dados do comentário em uma matrix.
 
 Os códigos que geram um novo comentário tiveram como ponto de partida [a lógica descrita aqui](http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/).
 
