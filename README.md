@@ -41,7 +41,7 @@ Fiz algumas alterações, como:
 Tabelas de comentários
 ---------------------------------------------------------
  
-Como a parte mais demorada disso é obter as tabelas de comentários [aqui tem uma pasta](https://github.com/celacanto/Do-you-Mister-Jones/tree/master/commentTables) com os comentários das matérias mais acessadas em diferentes semanas.
+Como a parte mais demorada disso é obter as tabelas de comentários, deixo [aqui tem uma pasta](https://github.com/celacanto/Do-you-Mister-Jones/tree/master/commentTables) com os comentários das matérias mais acessadas em diferentes semanas.
 
 Exemplo de como usar o código
 --------------------------------------------------------
