@@ -8,7 +8,7 @@ Aqui se encontram códigos para gerar novos comentários do UOL. Eles tem como b
 
 Os comentários gerados podem não fazer muito sentido, uma vez que a presença de uma palavra é determinada somente pelas duas anteriores. Isto tenderá a produzir um desconexo encadeamento lógico, o que deve aproxima-los dos originais.
 
-Exemplo de frases geradas
+Exemplo de comentários gerados
 ---------------------------------------------------------
 
 > viva o amor, o respeito, cumpre sua pena numa prisão. .
